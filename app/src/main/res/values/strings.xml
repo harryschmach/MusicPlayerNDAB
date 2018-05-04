@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Music Player NDAB</string>
+    <string name="img_view_desc">Image Representing Song</string>
+    <string name="audio_btn_desc">Button To Play Song</string>
+    <string name="empty_song_title">Song Title Goes Here</string>
+    <string name="empty_artist_str">Artist Goes Here</string>
+    <string name="song_details_btn_str">Tap Here or Song Title for Details</string>
+    <string name="details_empty_str">Details go here</string>
+
+    <!--Song One-->
+    <string name="song_one_title">Set Phasers to Retro</string>
+    <string name="song_one_artist">Hipster Moon</string>
+    <string name="song_one_details">Set Phasers to Retro by Hipster Moon is a commentary
+    on the struggles faced by individuals feeling like they were born into the wrong
+    time period. It is reflective of their later work using high pitched voices and general
+    melancholy. </string>
+
+    <!--Song Two-->
+    <string name="song_two_title">Before We Were Cool</string>
+    <string name="song_two_artist">Hipster Moon</string>
+    <string name="song_two_details">Before We Were Cool by Hipster Moon is a classic
+        love song of hipsters who found eachother. Then after finding eachother and their
+    relationship becoming too mainstream, problems ensue. It is a lament of the times
+    when the relationship itself was as underground as the coffee that the hipsters drink</string>
+
+    <!--Song Three-->
+    <string name="song_three_title">Wub Wub Wuuub</string>
+    <string name="song_three_artist">Trash Compactor</string>
+    <string name="song_three_details">Wub Wub Wuuub by Trash Compactor is a forty minute
+    loop of sirens and other sounds of metals being slammed into eachother. A young EDM band
+    tries to find footing in the scene.</string>
+
+    <!--Song Four-->
+    <string name="song_four_title">Hyper Melt Face</string>
+    <string name="song_four_artist">Decipticonipher</string>
+    <string name="song_four_details">Hyper Melt Face by Decipticonipher is a trancey remix
+        of the classic Hyper Face Melt where the entire song is simply played backwards
+        at double speed and triple the bass. Close your eyes and sink into the couch
+        with this song.</string>
+
+    <!--Song Five-->
+    <string name="song_five_title">Drum Soulo</string>
+    <string name="song_five_artist">Drum Solo</string>
+    <string name="song_five_details">Drum Soulo by Drum Solo is the self-titled
+        magnum opus of Drum Solo. The culmination of a thirty year career in thirty
+        different rock and roll bands fueled the fire of this piece.
+        Considered to be the auto-biography of all drummers, this five minute
+        ear pounder will take you back to you.</string>
+
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SongPlaying">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/song_playing_title_tv"
+        android:text="@string/empty_song_title"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/song_playing_artist_tv"
+        android:text="@string/empty_artist_str"
+        app:layout_constraintTop_toBottomOf="@+id/song_playing_title_tv"
+        android:textSize="24sp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dumb_image_view"
+        app:layout_constraintTop_toBottomOf="@+id/song_playing_artist_tv"/>
+
+    <ImageView
+        android:id="@+id/song_playing_genre_iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rockgenrepic"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_constraintBottom_toTopOf="@+id/details_btn_lin_lay"
+        />
+
+    <!--Linear layout to control button gravity-->
+    <LinearLayout
+        android:id="@+id/details_btn_lin_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        app:layout_constraintBottom_toTopOf="@id/song_seek_bar"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/song_details_btn_str"
+            android:id="@+id/details_clicky_tv"
+
+            />
+    </LinearLayout>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/song_controls_lin_lay"
+        android:id="@+id/song_seek_bar"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/song_controls_lin_lay"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:gravity="center"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/restart_song"
+            android:src="@drawable/ic_rewind"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pause_song"
+            android:src="@drawable/ic_pause"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/play_song"
+            android:src="@drawable/ic_play_arrow"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fast_forward_song"
+            android:src="@drawable/ic_fast_forward"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

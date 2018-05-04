@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/parent_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:minHeight="@dimen/list_item_height"
+    >
+
+    <ImageView
+        android:id="@+id/list_item_image"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_gravity="center"
+        android:contentDescription="@string/img_view_desc"
+        android:src="@mipmap/ic_launcher"
+        android:background="@android:color/white"
+
+        />
+
+    <LinearLayout
+        android:id="@+id/list_linear_layout_bgcolor"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_toRightOf="@id/list_item_image"
+        android:layout_weight="1"
+        android:background="@android:color/holo_green_light"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingStart="16dp">
+
+
+        <TextView
+            android:id="@+id/song_title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            tools:text="@string/empty_song_title" />
+
+        <TextView
+            android:id="@+id/artist_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            tools:text="@string/empty_artist_str" />
+    </LinearLayout>
+
+    <!--<ImageView-->
+        <!--android:id="@+id/audio_button"-->
+        <!--android:layout_width="24dp"-->
+        <!--android:layout_height="24dp"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:contentDescription="@string/audio_btn_desc"-->
+        <!--android:layout_marginRight="16dp"-->
+        <!--android:src="@drawable/ic_play_arrow"-->
+
+        <!--android:layout_marginEnd="16dp"-->
+        <!--android:layout_alignParentEnd="true" />-->
+
+
+</RelativeLayout>
