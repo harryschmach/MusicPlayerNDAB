@@ -58,19 +58,4 @@
             tools:text="@string/empty_artist_str" />
     </LinearLayout>
 
-    <!--<ImageView-->
-        <!--android:id="@+id/audio_button"-->
-        <!--android:layout_width="24dp"-->
-        <!--android:layout_height="24dp"-->
-        <!--android:layout_alignParentRight="true"-->
-        <!--android:layout_centerVertical="true"-->
-        <!--android:layout_gravity="center"-->
-        <!--android:contentDescription="@string/audio_btn_desc"-->
-        <!--android:layout_marginRight="16dp"-->
-        <!--android:src="@drawable/ic_play_arrow"-->
-
-        <!--android:layout_marginEnd="16dp"-->
-        <!--android:layout_alignParentEnd="true" />-->
-
-
 </RelativeLayout>

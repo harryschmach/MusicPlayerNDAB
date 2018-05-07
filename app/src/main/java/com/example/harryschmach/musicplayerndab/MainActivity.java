@@ -26,20 +26,20 @@ public class MainActivity extends AppCompatActivity {
 
         // Create a list of songs
         final ArrayList<Song> songs = new ArrayList<>();
-        songs.add(new Song(R.string.song_one_title, R.string.song_one_artist, R.drawable.indieicon,
-                0, R.string.song_one_details, R.drawable.indiegenrepic));
+        songs.add(new Song(R.string.song_one_title, R.string.song_one_artist, R.drawable.indieicon_n,
+                0, R.string.song_one_details, R.drawable.indiegenrepic_n));
 
-        songs.add(new Song(R.string.song_two_title, R.string.song_two_artist, R.drawable.indieicon,
-                0, R.string.song_two_details, R.drawable.indiegenrepic));
+        songs.add(new Song(R.string.song_two_title, R.string.song_two_artist, R.drawable.indieicon_n,
+                0, R.string.song_two_details, R.drawable.indiegenrepic_n));
 
-        songs.add(new Song(R.string.song_three_title, R.string.song_three_artist, R.drawable.edmicon,
-                0, R.string.song_three_details, R.drawable.edmgenrepic));
+        songs.add(new Song(R.string.song_three_title, R.string.song_three_artist, R.drawable.edmicon_n,
+                0, R.string.song_three_details, R.drawable.edmgenrepic_n));
 
-        songs.add(new Song(R.string.song_four_title, R.string.song_four_artist, R.drawable.edmicon,
-                0, R.string.song_four_details, R.drawable.edmgenrepic));
+        songs.add(new Song(R.string.song_four_title, R.string.song_four_artist, R.drawable.edmicon_n,
+                0, R.string.song_four_details, R.drawable.edmgenrepic_n));
 
-        songs.add(new Song(R.string.song_five_title, R.string.song_five_artist, R.drawable.rockicon,
-                0, R.string.song_five_details, R.drawable.rockgenrepic));
+        songs.add(new Song(R.string.song_five_title, R.string.song_five_artist, R.drawable.rockicon_n,
+                0, R.string.song_five_details, R.drawable.rockgenrepic_n));
 
         // Create an {@link SongAdapter}, whose data source is a list of {@link Song}s. The
         // adapter knows how to create list items for each item in the list.

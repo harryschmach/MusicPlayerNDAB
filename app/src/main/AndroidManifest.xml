@@ -16,8 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SongPlaying" />
-        <activity android:name=".DetailsActivity"></activity>
+        <activity android:name=".SongPlaying"
+            android:label="Activity to display the Song being played"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".DetailsActivity"
+            android:label="Activity to display details of the Song being played"
+            android:parentActivityName=".SongPlaying">
+        </activity>
     </application>
 
 </manifest>
